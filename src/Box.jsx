@@ -6,9 +6,9 @@ const Box = ({ qoutes, onclick }) => {
   return (
     <div className="p-6 font-container relative justify-center mt-60 w-4/5 bg-darkGrayishBlue mx-auto flex flex-col items-center rounded-xl  md:w-2/6">
       <div>
-        <h3 className="text-neonGreen text-center tracking-wide mb-3">
+        <h1 className="text-neonGreen text-center tracking-wide mb-3">
           A D V I C E #{qoutes?.id}
-        </h3>
+        </h1>
         <p className="text-center text-2xl text-bold text-lightCyan ">
           "{qoutes?.advice}"
         </p>
